@@ -1,0 +1,3 @@
+/cookbooks/
+.DS_Store
+.chef/

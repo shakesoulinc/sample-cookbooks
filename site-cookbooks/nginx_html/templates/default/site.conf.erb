@@ -1,0 +1,22 @@
+## Static ##
+server {
+    listen *:80 default_server;
+    server_name _;
+
+    access_log   /var/log/nginx/sample01.access.log;
+    error_log    /var/log/nginx/sample01.error.log;
+    
+    root /usr/share/nginx/html;
+    index index.html index.htm;
+
+    location = /favicon.icon {
+        log_not_found off;
+        access_log off;
+    }
+
+    location = /robots.txt {
+        allow all;
+        log_not_found off;
+        access_log off;
+    }
+}
