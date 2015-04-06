@@ -1,0 +1,6 @@
+{
+  "title" : "Chef Tech Study",
+  "run_list": [
+    "nginx_html"
+  ]
+}
