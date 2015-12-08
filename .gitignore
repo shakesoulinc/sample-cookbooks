@@ -1,3 +1,8 @@
-# /cookbooks/
 .DS_Store
-#.chef/
+Berksfile.lock
+Gemfile.lock
+.kitchen
+.kitchen.yml
+.kitchen.local.yml
+cookbooks
+chefignore

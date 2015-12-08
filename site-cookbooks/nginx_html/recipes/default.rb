@@ -7,6 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
+include_recipe 'yum-epel'
+
 # nginx
 package "nginx" do
     action :install
